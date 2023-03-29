@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7932727558532731172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7719090679331011717}
+  - component: {fileID: 1255875058355778062}
+  m_Layer: 0
+  m_Name: LineBick_objContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7719090679331011717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932727558532731172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.200088, y: -4.308892, z: 3.5047863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255875058355778062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932727558532731172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a38631221ee24c46b594b4526654c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container_Sprite: {fileID: 21300000, guid: a4dc07d52153c504fbcdf505fadd32a7, type: 3}
+  SingleBox:
+  - {fileID: 9211489384066454037, guid: 907a694d12aaaab4f820114036df8f32, type: 3}
+  - {fileID: 3949140501852124836, guid: 8e25049ebee32074288676e089a06939, type: 3}
+  - {fileID: 2374280406387075714, guid: 5e5f0bab3f2214d458cb61c5111e07ab, type: 3}
+  - {fileID: 4961146766032828860, guid: 2399b0f6a6fca38438107e8eacf05e46, type: 3}
+  TopSingleBox:
+  - {fileID: 8348301881958167207, guid: 1e657b8615711c4488913b4f27a07b3d, type: 3}
+  - {fileID: 5742860065058942977, guid: 35ffb192eba5b1f458aaf4c745912c31, type: 3}
+  threeBox:
+  - {fileID: 1021715468271888882, guid: f81c01dad9f609349a5ecdc00f53cb65, type: 3}
+  - {fileID: 870544792829089571, guid: c0592aedc174bec4f9fa0290a2460f2a, type: 3}
+  - {fileID: 7262926381775768671, guid: e339b7241c5f7f7418b96cd356f55adc, type: 3}
+  TopthreeBox:
+  - {fileID: 8139677475363488064, guid: 39d57ba7e14f90b46963fcc452bce0f0, type: 3}
+  - {fileID: 6928943203179133360, guid: d59eba5e2acaa3c4c9366fa0e2eef1d2, type: 3}
+  SignleBox_sprite:
+  - {fileID: 21300000, guid: a4dc07d52153c504fbcdf505fadd32a7, type: 3}
+  - {fileID: 21300000, guid: ad2257f8bbe09364db02ab65f1e5e72c, type: 3}
+  - {fileID: 21300000, guid: 781c55eacfea4444eb83b6c66a09206b, type: 3}
+  - {fileID: 21300000, guid: c271531398c4ec346ba8aa7a2355c6f2, type: 3}
+  - {fileID: 21300000, guid: c271531398c4ec346ba8aa7a2355c6f2, type: 3}
+  TopSingleBox_sprite:
+  - {fileID: 21300000, guid: f12a171d5238c414196fdb6a1692641e, type: 3}
+  - {fileID: 21300000, guid: 2adeaf6bd6fa6664d83bf9eb1f2d5f8d, type: 3}
+  threeBox_sprite:
+  - {fileID: 21300000, guid: cbe4b98b11cd26641a0662eafa5553b9, type: 3}
+  - {fileID: 21300000, guid: 9dc43ecd2067c534b9b57f8e2d3b3aeb, type: 3}
+  - {fileID: 21300000, guid: 347ccce437ad52e41a748721ca4f4e9e, type: 3}
+  TopthreeBox_sprite:
+  - {fileID: 21300000, guid: ed3c68d43b32c9a439393ace66318f1a, type: 3}
+  - {fileID: 21300000, guid: 7f8a48cbe083565479acb3bd80a92783, type: 3}

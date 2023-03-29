@@ -1,0 +1,37 @@
+# Blender MTL File: 'CrainM.blend'
+# Material Count: 3
+
+newmtl Material
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.522727 0.522727 0.522727
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Caint_MovingPart_Albedo.tga
+refl Caint_MovingPart_Metallic.tga
+
+newmtl Material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Caint_StaticPart_Albedo.tga
+
+newmtl Material.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd -s 1.000000 7.700000 1.000000 C:\\Users\\Zooor\\Desktop\\ROpe.png
+map_d -s 1.000000 7.700000 1.000000 C:\\Users\\Zooor\\Desktop\\ROpe.png

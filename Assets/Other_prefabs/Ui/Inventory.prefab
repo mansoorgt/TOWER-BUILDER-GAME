@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4231946798681319340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4231946798681319342}
+  - component: {fileID: 4231946798681319343}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4231946798681319342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231946798681319340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 424.01147, y: 842.9338, z: -939.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4231946798681319343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231946798681319340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67addb88924789e4a9e20a261ed745c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  F_Arrwo: {fileID: 0}
+  Side_lable_panel: {fileID: 0}
+  BackGround: {fileID: 0}
+  BackGround_border: {fileID: 0}
+  prt_obj_contrainer: {fileID: 0}
+  Invetory_Main_parent: {fileID: 0}
+  Parents: {fileID: 0}
+  Button_prefab: {fileID: 6247002877805640486, guid: 3a83cac7624870740a4e69775cbe9372,
+    type: 3}
+  Slected_button_singleBox: {fileID: 0}
+  Slected_button_TopsingleBox: {fileID: 0}
+  Slected_button_TreeBox: {fileID: 0}
+  Slected_button_TopTreeBox: {fileID: 0}
+  Selected_button_list: []
+  parent_SingleBox: {fileID: 0}
+  parent_topsingleBox: {fileID: 0}
+  parent_Treebox: {fileID: 0}
+  parent_topTreeBox: {fileID: 0}
+  Parent_obj_container: {fileID: 0}
+  Obj_container_list:
+  - {fileID: 3994571339068240385, guid: 3c54b7d846ae26242921459b1f870cec, type: 3}
+  - {fileID: 2752797263735751477, guid: 6b1e3c42d41cc224f8d514dcf82ed281, type: 3}
+  - {fileID: 2752797263735751477, guid: 6b1e3c42d41cc224f8d514dcf82ed281, type: 3}
+  Selected_Container: {fileID: 3994571339068240385, guid: 3c54b7d846ae26242921459b1f870cec,
+    type: 3}
+  temp_SingleBox: []
+  temp_TopSingleBox: []
+  temp_threeBox: []
+  temp_TopthreeBox: []
+  temp_ObjContainer: []
+  Button_SingleBox: []
+  Button_TopSingleBox: []
+  Button_threeBox: []
+  Button_TopthreeBox: []
+  Button_obj_containers: []
+  SidePanleRight: 800

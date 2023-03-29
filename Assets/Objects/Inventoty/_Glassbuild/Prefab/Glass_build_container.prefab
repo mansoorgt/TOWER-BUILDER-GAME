@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1346250849051555927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3982267948048233577}
+  - component: {fileID: 8024301626500713964}
+  m_Layer: 0
+  m_Name: Glass_build_container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3982267948048233577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346250849051555927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.321222, y: -3.5913954, z: 17.549015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8024301626500713964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346250849051555927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a38631221ee24c46b594b4526654c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container_Sprite: {fileID: 21300000, guid: 73dbbd8933d02b64b800be978bd42ef6, type: 3}
+  SingleBox:
+  - {fileID: 1790019907261919747, guid: 4038b2499c36a2641b63f4287249da25, type: 3}
+  TopSingleBox:
+  - {fileID: 4417692596879952780, guid: 529576405d8913144b66fba32c2d275e, type: 3}
+  - {fileID: 5096267939277881149, guid: 17a83bcd84533854fa13c4b3e0995bb8, type: 3}
+  threeBox:
+  - {fileID: 7316471961547245417, guid: 032d84aeb9e43da4696d02caf6ea83d6, type: 3}
+  TopthreeBox:
+  - {fileID: 2829017472884895706, guid: 533e9aa4e329aa24fad8e990dcdd93ab, type: 3}
+  SignleBox_sprite:
+  - {fileID: 21300000, guid: 73dbbd8933d02b64b800be978bd42ef6, type: 3}
+  TopSingleBox_sprite:
+  - {fileID: 21300000, guid: 8ec8ae13a25592f49b7f2ca85209bbed, type: 3}
+  - {fileID: 21300000, guid: face764e81b927c46ae5c57c5e1b2930, type: 3}
+  threeBox_sprite:
+  - {fileID: 21300000, guid: 61c3332ac10c313419462f9af11bb869, type: 3}
+  TopthreeBox_sprite:
+  - {fileID: 21300000, guid: 9f1166ccab8887142b6c46898030a8d5, type: 3}
